@@ -49,7 +49,7 @@ function App() {
                 <br />
 
                 <label for="password">Password:</label>
-                <input id='password' placeholder='Password' required type='text' 
+                <input id='password' placeholder='Password' required type='password' 
                 value={password}
                 onChange={(e) => {
                   setPassword(e.target.value)
