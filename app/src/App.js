@@ -24,11 +24,13 @@ function App() {
 
   return (
     <div className="App">
-      
+
+        <h1>Login Page</h1>
+        
         {
           login ? (<p>Welcome User</p>) : (
                 <>
-                <h1>Login Page</h1>
+                
 
                   {
                     invalid && <p>Invalid username or password</p>
