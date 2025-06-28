@@ -28,7 +28,7 @@ function App() {
         <h1>Login Page</h1>
         
         {
-          login ? (<p>Welcome User</p>) : (
+          login ? (<p>Welcome, user</p>) : (
                 <>
                 
 
